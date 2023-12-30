@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://graph.org/file/a8095ab3c9202607e78ad.jpg",
+                photo="https://graph.org/file/baf274f4abcd5a6ab0b54.jpg",
                 caption="<b>⚠️  ɪɴ  ᴏʀᴅᴇʀ  ᴛᴏ  ᴜꜱᴇ  ᴍᴇ.  ʏᴏᴜ  ʜᴀᴠᴇ  ᴛᴏ  ᴊᴏɪɴ  ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇs  ᴄʜᴀɴɴᴇʟ  ꜰɪʀsᴛ.</b>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -70,7 +70,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<b>ꜱᴏᴍᴇᴛʜɪɴɢ  ᴡᴇɴᴛ  ᴡʀᴏɴɢ  <a href='https://telegram.me/BotszSupport'>ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ꜰᴏʀ  ꜱᴜᴘᴘᴏʀᴛ</a></b>",
+                text="<b>ꜱᴏᴍᴇᴛʜɪɴɢ  ᴡᴇɴᴛ  ᴡʀᴏɴɢ  <a href='https://telegram.me/Scooby_Men'>ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ꜰᴏʀ  ꜱᴜᴘᴘᴏʀᴛ</a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/NobiDeveloperr).",
+                text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/Scooby_Men).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -126,20 +126,20 @@ async def help_handler(bot, message):
 
 <b>╭━━━━〔ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/NobiDeveloper'>ɴᴏʙɪᴛᴀ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
+┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/Ben10_movie_bot'> Bᴇɴ𝟷𝟶 sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
 ┣⪼<b>ꜱᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://telegram.me/MovieVillaYT'>ᴍᴏᴠɪᴇᴠɪʟʟᴀ</a></b>
-┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/NobiDeveloperSupport'>ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱᴜᴘᴘᴏʀᴛ</a></b>
-┣⪼<b>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href='https://telegram.me/AllRequestGroups'>ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://t.me/theottservice'>ᴍᴏᴠɪᴇᴠɪʟʟᴀ</a></b>
+┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/Scooby_Men'>ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱᴜᴘᴘᴏʀᴛ</a></b>
+┣⪼<b>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href='https://t.me/+fgQFe3kb_RtmYWY1'>ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ</a></b>
 ┃
 <b>╰━━━━〔ᴘʟᴇᴀꜱᴇ sᴜᴘᴘᴏʀᴛ〕</b>""",
         
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://youtube.com/@NobiDeveloper")],
-                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://github.com/NobiDeveloper/Nobita-Stream-Bot")]
+                [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://t.me/Scooby_Men")],
+                [InlineKeyboardButton("🍁  ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/theottservice")]
             ]
         )
     )
